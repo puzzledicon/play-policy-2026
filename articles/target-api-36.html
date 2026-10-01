@@ -30,10 +30,14 @@
       <div class="keywords"><span>Google Play政策</span><span>目标API</span><span>API 36</span><span>照片权限</span><span>视频权限</span><span>开发者验证</span><span>应用转移</span><span>政策状态</span></div>
     </div>
     <div class="content">
-      <h2>操作步骤要点</h2>
-      <ul class="check"><li>查看 Console 对目标 API 的截止日期与延期入口。</li><li>升级依赖库并回归权限、后台与通知行为。</li><li>用测试轨道验证后再全量。</li><li>老项目不兼容时尽早排期，避免临期集中故障。</li><li>以政策状态页红灯项为准逐项消除。</li></ul>
-      <h2>实操建议</h2>
-      <ul class="check"><li>所有费用、材料与审核结果以平台当前页面为准。</li><li>中途更换主体类型或关键资料，容易导致验证反复。</li><li>涉及内购时，先完成付款/协议，再创建商品与联调。</li></ul>
+      <h2>适用场景</h2>
+      <p>满足 Play 对目标 API 级别的更新要求。</p>
+      <h2>操作步骤</h2>
+      <ol class="steps"><li>查看 Console 截止日期与延期入口。</li><li>升级 AGP、compileSdk、targetSdk。</li><li>回归权限、后台、通知与显示变更。</li><li>修复依赖不兼容并跑核心路径。</li><li>先测试轨道，再逐步生产。</li></ol>
+      <h2>注意事项</h2>
+      <ul class="check"><li>延期非长期方案。</li><li>第三方 SDK 落后是常见阻塞。</li><li>行为变更需完整回归登录/支付/推送。</li></ul>
+      <h2>官方参考</h2>
+      <p><a href="https://developer.android.com/google/play/requirements/target-sdk" target="_blank" rel="noopener">目标 API 要求</a></p>
     </div>
     <p style="margin-top:1rem"><a href="../index.html">← 返回目录</a></p>
 

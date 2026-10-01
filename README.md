@@ -1,6 +1,6 @@
 # Google Play 政策对照笔记
 
-整理目标 API、权限与验证等公开节点，帮助你在注册与上架过程中提前对照。
+整理目标 API、照片/视频权限、开发者验证与官方转移等公开节点，配合政策状态页做上架与更新前合规检查。
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-online-2ea44f?logo=github)](https://puzzledicon.github.io/play-policy-2026/)
 
