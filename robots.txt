@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puzzledicon.github.io/play-policy-2026/sitemap.xml
